@@ -17,8 +17,8 @@ PART
 	category = Coupling
 	subcategory = 0
 	title = #autoLOC_REKT_0024
-	manufacturer = #autoLOC_REKT_0000
-	description = #autoLOC_REKT_0025
+	manufacturer = #autoLOC_REKT_000
+	description = #autoLOC_REKT_029
 	attachRules = 1,1,1,1,0
 	mass = 0.03
 	dragModelType = default

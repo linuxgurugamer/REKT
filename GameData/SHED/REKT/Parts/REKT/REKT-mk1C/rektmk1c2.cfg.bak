@@ -25,7 +25,7 @@ PART
 	category = Pods
 	subcategory = 0
 	title = #autoLOC_REKT_0008
-	manufacturer = #autoLOC_REKT_0000
+	manufacturer = #autoLOC_REKT_000
 	description = #autoLOC_REKT_0009
 	
 	// --- attachment rules: stack, srfAttach, allowStack, allowSrfAttach, allowCollision

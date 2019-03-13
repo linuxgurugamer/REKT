@@ -49,7 +49,7 @@ cost = 800
 category = Aero
 subcategory = 0
 title = #autoLOC_OTAV_0008
-manufacturer = #autoLOC_REKT_0000
+manufacturer = #autoLOC_REKT_000
 description = #autoLOC_OTAV_0009
 
 // attachment rules: stack, srfAttach, allowStack, allowSrfAttach, allowCollision

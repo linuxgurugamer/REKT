@@ -28,7 +28,7 @@ PART
 	category = none
 	subcategory = 0
 	title = #autoLOC_REKT_0022
-	manufacturer = #autoLOC_REKT_0000
+	manufacturer = #autoLOC_REKT_000
 	description = #autoLOC_REKT_0023
 	
 	// --- attachment rules: stack, srfAttach, allowStack, allowSrfAttach, allowCollision

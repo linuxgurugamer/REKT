@@ -1,12 +1,12 @@
 PART
 {
 	// --- general parameters ---
-	name = kisPod
+	name = freightPod
 	module = Part
 	author = steedcrugeon
 
 	// --- asset parameters ---
-	model = freightPodK.mu
+	model = freightPod.mu
 	rescaleFactor = 1
 
 	// --- node definitions ---
@@ -18,24 +18,24 @@ PART
 	CoLOffset = 0.0, -0.35, 0.0
 	CoPOffset = 0.0, 0.5, 0.0
 
-	buoyancy = 0.45	
-
+	buoyancy = 0.7
+	
 	// --- editor parameters ---
 	CrewCapacity = 0
-	TechRequired = Unresearchable
+	TechRequired = survivability
 	entryCost = 9500
 	cost = 4500
-	category = none
+	category = Utility
 	subcategory = 0
-	title = #autoLOC_REKT_0022
-	manufacturer = #autoLOC_REKT_0000
-	description = #autoLOC_REKT_0023
+	title = #autoLOC_REKT_0020
+	manufacturer = #autoLOC_REKT_000
+	description = #autoLOC_REKT_0021
 	
 	// --- attachment rules: stack, srfAttach, allowStack, allowSrfAttach, allowCollision
 	attachRules = 1,1,1,1,0
 
 	// --- standard part parameters ---
-	mass = 0.15
+	mass = 0.4
 	dragModelType = default
 	maximum_drag = 0.2
 	minimum_drag = 0.3
@@ -49,29 +49,18 @@ PART
 	bulkheadProfiles = size0
 	tags = base cabin (can outpost passenger statio tour tuna
 
-	MODULE
+	
+	RESOURCE
 	{
-		name = ModuleKISInventory
-		maxVolume = 1500
-		externalAccess = true
-		internalAccess = true
-		slotsX = 4
-		slotsY = 3
-		slotSize = 50
-		itemIconResolution = 128
-		selfIconResolution = 128
-		openSndPath = KIS/Sounds/containerOpen
-		closeSndPath = KIS/Sounds/containerClose
-		defaultMoveSndPath = KIS/Sounds/itemMove
+	name = Ore
+	amount = 0
+	maxAmount = 90
 	}
 
 	MODULE
 	{
-		name = ModuleKISItem
-		volumeOverride = 1700
-		editorItemsCategory = false
+	name = ModuleFuelJettison
 	}
-	
 
 
 }

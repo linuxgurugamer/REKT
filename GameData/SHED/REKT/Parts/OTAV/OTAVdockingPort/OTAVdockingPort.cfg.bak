@@ -36,7 +36,7 @@ PART
 	category = Coupling
 	subcategory = 0
 	title = #autoLOC_OTAV_0015
-	manufacturer = #autoLOC_REKT_0000
+	manufacturer = #autoLOC_REKT_000
 	description = #autoLOC_OTAV_0016
 	attachRules = 1,1,1,1,0
 	mass = 0.35

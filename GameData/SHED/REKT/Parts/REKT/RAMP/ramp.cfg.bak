@@ -28,7 +28,7 @@ PART
 	category = Utility
 	subcategory = 0
 	title = #autoLOC_REKT_0033
-	manufacturer = #autoLOC_REKT_0000
+	manufacturer = #autoLOC_REKT_000
 	description = #autoLOC_REKT_0034
 	attachRules = 1,0,0,1,0
 	mass = 0.075

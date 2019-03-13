@@ -1,45 +1,45 @@
 PART
 {
-	name = OTAVdockingPort
+	name = OTAVclamp
 	module = Part
 	author = steedcrugeon
-	model = dockingPortOTAV.mu
+	model = OTAVclamp.mu
 	rescaleFactor = 1
 	//node_stack_top = 0.0, 0.2828832, 0.0, 0.0, 1.0, 0.0, 1
 	//node_stack_bottom = 0.0, 0.0, 0.0, 0.0, -1.0, 0.0, 1
 	//node_attach = 0.0, 0.0, 0.0, 0.0, -1.0, 0.0
 	NODE
 	{
-		name = topmNode
-		transform = topNode
+		name = topNode
+		transform = dockPoint
 		size = 1
 		method = FIXED_JOINT
 	}
-	NODE
-	{
-		name = bottomNode
-		transform = bottomNode
-		size = 0
-		method = FIXED_JOINT
-	}
+	//NODE
+	//{
+	//	name = bottomNode
+	//	transform = bottomNode
+	//	size = 0
+	//	method = FIXED_JOINT
+	//}
 	NODE
 	{
 		name = dockNode
-		transform = dockPoint
+		transform = nodeEPX
 		size = 0
 		method = FIXED_JOINT
 	}
 
 	TechRequired = specializedConstruction
-	entryCost = 8500
-	cost = 560
+	entryCost = 200
+	cost = 150
 	category = Coupling
 	subcategory = 0
-	title = #autoLOC_OTAV_0015
-	manufacturer = #autoLOC_REKT_0000
-	description = #autoLOC_OTAV_0016
+	title = #autoLOC_OTAV_0017
+	manufacturer = #autoLOC_REKT_000
+	description = #autoLOC_OTAV_0018
 	attachRules = 1,1,1,1,0
-	mass = 0.35
+	mass = 0.05
 	dragModelType = default
 	maximum_drag = 0.25
 	minimum_drag = 0.25
@@ -47,16 +47,21 @@ PART
 	crashTolerance = 10
 	maxTemp = 2000 // = 3400
 	bulkheadProfiles = size1, srf
-	tags = berth capture connect couple dock fasten join moor socket
+	tags = berth capture connect couple dock fasten join moor plug shed
 	stagingIcon = DECOUPLER_VERT
 	MODULE
 	{
 		name = ModuleDockingNode
-		nodeTransformName = dockPoint
-		nodeType = sizeEP
+		nodeTransformName = nodeEPX
+		nodeType = sizeEPX
 		stagingEnabled = False
+		gendered = true
+		genderFemale = false
 		snapOffset = 180
 		captureMinRollDot = 0.99
+		acquireRange = 0.4
+		captureRange = 0.09
+		acquireForce = 0.5
 		referenceAttachNode = dockNode
 	}
 }

@@ -13,7 +13,7 @@ PART
 	category = Electrical
 	subcategory = 0
 	title = #autoLOC_REKT_0050
-	manufacturer = #autoLOC_REKT_0000
+	manufacturer = #autoLOC_REKT_000
 	description = #autoLOC_REKT_0051
 	attachRules = 1,0,0,1,0
 	mass = 0.05

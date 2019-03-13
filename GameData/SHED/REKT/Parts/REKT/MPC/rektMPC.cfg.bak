@@ -35,7 +35,7 @@ PART
 	category = Pods
 	subcategory = 0
 	title = #autoLOC_REKT_0040
-	manufacturer = #autoLOC_REKT_0000
+	manufacturer = #autoLOC_REKT_000
 	description = #autoLOC_REKT_0041
 	attachRules = 1,0,1,1,0
 	mass = 0.085
