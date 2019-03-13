@@ -1,3 +1,6 @@
+0.4.6.3
+	Thanks to forum user @Volatilebullfrog for finding a bunch of localization errors
+
 0.4.6.2
 	Fixed some localization errors.  Thanks @wile1411 for pointing them out
 
