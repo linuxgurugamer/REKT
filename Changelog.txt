@@ -1,3 +1,6 @@
+0.4.6.4 (unreleased)
+	Deleted all bak files
+
 0.4.6.3
 	Thanks to forum user @Volatilebullfrog for finding a bunch of localization errors
 
