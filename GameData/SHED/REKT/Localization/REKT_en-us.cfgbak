@@ -4,7 +4,7 @@ Localization
 	{
 		// --- the Mod ---
 		
-		#autoLOC_REKT_0000 = Recoverable Emergency Kerbal Transport
+		#autoLOC_REKT_0000 = Recoverbale Emergency Kerbal Transport
 
 		// --- REKt Parts ---
 		
@@ -27,9 +27,6 @@ Localization
 		#autoLOC_REKT_0012 = Deploy Retro-rockets
 		#autoLOC_REKT_0013 = Retract Retro-rockets
 		#autoLOC_REKT_0014 = Toggle Retro-rockets
-		#autoLOC_REKT_0015 = Cryo Generator 
-		#autoLOC_REKT_0016 = Start Generator
-		#autoLOC_REKT_0017 = Stop Generator
 	
 		// --- Freght pods ---
 
