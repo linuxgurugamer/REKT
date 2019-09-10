@@ -1,5 +1,7 @@
-0.4.6.4 (unreleased)
+0.4.6.4 
 	Deleted all bak files
+	Updated bouyancy values so all the pods float.
+    Also fixed a few localization tags and added search tags (such as REKT and OTAV where appropriate).
 
 0.4.6.3
 	Thanks to forum user @Volatilebullfrog for finding a bunch of localization errors
