@@ -1,3 +1,8 @@
+ChangeLog
+
+0.4.7
+	Updated for KSP 1.8
+
 0.4.6.4 
 	Deleted all bak files
 	Updated bouyancy values so all the pods float.
