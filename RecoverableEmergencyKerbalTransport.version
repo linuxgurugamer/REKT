@@ -1,13 +1,13 @@
 {
   "NAME": "RecoverableEmergencyKerbalTransport",
-  "URL": "http:/ksp.spacetux.net/avc/RecoverableEmergencyKerbalTransport",
+  "URL": "http://ksp.spacetux.net/avc/RecoverableEmergencyKerbalTransport",
   "DOWNLOAD": "https://github.com/linuxgurugamer/REKT/releases/tag/v0.4.5",
   "CHANGE_LOG_URL": "https://github.com/linuxgurugamer/REKT/blob/master/Changelog.txt",
   "VERSION": {
     "MAJOR": 0,
     "MINOR": 4,
     "PATCH": 8,
-    "BUILD": 0
+    "BUILD": 1
   },
   "KSP_VERSION_MIN": {
     "MAJOR": 1,

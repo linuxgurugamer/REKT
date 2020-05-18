@@ -1,5 +1,8 @@
 ChangeLog
 
+0.4.8.1
+    Fixed typo in url
+    
 0.4.8
 	Thanks to github user @chrbkr, forum user @infinite_monkey for this:
 		Add double OTAV docking port
