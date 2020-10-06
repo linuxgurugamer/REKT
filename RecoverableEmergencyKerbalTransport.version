@@ -7,7 +7,7 @@
     "MAJOR": 0,
     "MINOR": 4,
     "PATCH": 8,
-    "BUILD": 1
+    "BUILD": 2
   },
   "KSP_VERSION_MIN": {
     "MAJOR": 1,
@@ -17,7 +17,7 @@
   "INSTALL_LOC_1": {
     "NAME": "RecoverableEmergencyKerbalTransport",
     "PATH": "",
-    "DIRECTORY": "SHED",
+    "DIRECTORY": "SHED/REKT",
     "FILE": "RecoverableEmergencyKerbalTransport.version"
   }
 }

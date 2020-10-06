@@ -1,5 +1,9 @@
 ChangeLog
 
+0.4.8.2
+	Fixed INSTALL_LOC_1 in the .version file so that MADLAD will not report an
+	error on a good install
+
 0.4.8.1
     Fixed typo in url
     
