@@ -1,5 +1,8 @@
 ChangeLog
 
+0.4.9.1 
+	Added code to avoid errors when RPM is not installed
+	
 0.4.9
 	Added bottom node to decoupler: shrekt
 	Fixed position of nodes in decoupler: shrekt
