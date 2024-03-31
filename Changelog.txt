@@ -1,5 +1,10 @@
 ChangeLog
 
+0.4.9
+	Added bottom node to decoupler: shrekt
+	Fixed position of nodes in decoupler: shrekt
+	Fixed crash caused by missing module when using RasterPropMonitor
+
 0.4.8.2
 	Fixed INSTALL_LOC_1 in the .version file so that MADLAD will not report an
 	error on a good install
